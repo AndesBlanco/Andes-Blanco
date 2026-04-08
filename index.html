@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andes Blanco - Servicios a la Minería</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0b1a2f;
+            color: white;
+        }
+
+        header {
+            background: #102a43;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #00aaff;
+        }
+
+        nav {
+            background: #08121f;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: #00aaff;
+        }
+
+        .hero {
+            padding: 80px 20px;
+            text-align: center;
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)),
+                        url('https://images.unsplash.com/photo-1581091215367-59ab6b8b42b1');
+            background-size: cover;
+        }
+
+        .hero h2 {
+            font-size: 40px;
+        }
+
+        .section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #132f4c;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        footer {
+            background: #08121f;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        .btn {
+            background: #00aaff;
+            color: black;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>ANDES BLANCO</h1>
+    <p>Servicios Profesionales para la Minería</p>
+</header>
+
+<nav>
+    <a href="#">Inicio</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section class="hero">
+    <h2>Soluciones para la Minería</h2>
+    <p>Topografía | Estimación de Recursos | Apoyo Operacional</p>
+    <br>
+    <a class="btn" href="#contacto">Contáctanos</a>
+</section>
+
+<section id="servicios" class="section">
+    <h2>Servicios</h2>
+
+    <div class="services">
+        <div class="card">
+            <h3>Topografía Minera</h3>
+            <p>Levantamientos, puntos de control y apoyo en terreno.</p>
+        </div>
+
+        <div class="card">
+            <h3>Estimación de Recursos</h3>
+            <p>Modelamiento y estimación de recursos y reservas.</p>
+        </div>
+
+        <div class="card">
+            <h3>Apoyo a Sondajes</h3>
+            <p>Logística, control y seguimiento de perforaciones.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contacto" class="section">
+    <h2>Contacto</h2>
+    <p>Email: contacto@andesblanco.com</p>
+    <p>Teléfono: +56 9 4001 3548</p>
+</section>
+
+<footer>
+    <p>© 2026 Andes Blanco</p>
+</footer>
+
+</body>
+</html>
